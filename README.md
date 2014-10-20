@@ -44,11 +44,11 @@ class MyObject extends DataObject {
 
 	// To use the tags in the template correctly
 	public function Tags() {
-		$new = array();
-		foreach(explode(',', $this->Tags) as $tag) {
-			$new[] = array('Tag' => $tag);
+		$tags = explode(',', $this->Tags);
+		foreach($tags as $i => $tag) {
+			$tags[$i] = array('Tag' => $tag);
 		}
-		return ArrayList::create($new);
+		return ArrayList::create($tags);
 	}
 
 }
