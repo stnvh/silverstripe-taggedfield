@@ -1,0 +1,12 @@
+.chzn-container-multi ul.tagit {
+	max-width: 496px;
+	margin: 0;
+	padding: 2px 7px;
+	border: 1px solid #b3b3b3;
+	background-image: linear-gradient(#eaeaea, #ffffff 10%);
+}
+
+.chzn-container-multi .chzn-choices .search-choice {
+	margin-left: 0;
+	margin-right: 5px;
+}
