@@ -2,7 +2,7 @@
 
 class TaggedField extends TextField {
 
-	public function __construct($name, $title, $value, $maxLength = null, $form = null) {
+	public function __construct($name, $title = null, $value = '', $maxLength = null, $form = null) {
 
 		$this->addExtraClass('text jquery-tagit-hook chzn-container-multi');
 
